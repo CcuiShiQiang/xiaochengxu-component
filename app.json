@@ -11,6 +11,7 @@
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
+    "borderStyle": "white",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -22,7 +23,7 @@
         "pagePath": "pages/logs/logs",
         "iconPath": "./images/acount.png",
         "selectedIconPath": "./images/acount_s.png",
-        "text": "个人中心"
+        "text": "我的"
       }
     ]
   }
