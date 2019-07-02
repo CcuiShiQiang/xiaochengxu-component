@@ -1,0 +1,17 @@
+<!--pages/swiper/swiper.wxml-->
+<view>
+  <swiper indicator-dots="{{true}}"
+    autoplay="{{true}}" interval="{{3000}}" duration="{{500}}"indicator-color="red" indicator-active-color="blue" current="0" circular="true" bindchange="changeCurrent" bindtransition="transitionItem" bindanimationfinish="transitionfinish">
+      <swiper-item>
+        <image src="https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+
+      <swiper-item>
+        <image src="https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+
+      <swiper-item>
+        <image src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640" class="slide-image" width="355" height="150"/>
+      </swiper-item>
+  </swiper>
+</view>
