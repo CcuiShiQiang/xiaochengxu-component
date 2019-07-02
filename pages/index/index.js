@@ -11,15 +11,19 @@ Page({
   },
   //事件处理函数
   bindViewTap: function() {
-    console.log(11)
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
   jump: function () {
-    console.log(22)
     wx.navigateTo({
       url: '../movable/movable'
+    })
+  },
+  // 跳转到scrollView
+  toscrollView: function () {
+    wx.navigateTo({
+      url: '../scrollView/scrollView'
     })
   },
   onLoad: function () {
