@@ -27,12 +27,19 @@ Page({
     })
   },
 
-  //
+  // 跳转到swiper
   toswiper: function () {
     wx.navigateTo({
       url: '../swiper/swiper'
     })
   },
+
+  tocoverview: function () {
+    wx.navigateTo({
+      url: '../coverview/coverview'
+    })
+  },
+
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

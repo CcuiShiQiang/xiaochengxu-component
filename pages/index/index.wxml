@@ -3,6 +3,7 @@
   <view>
     <button bindtap="toscrollView">scrollView</button>
     <button bindtap="toswiper">swiper</button>
+    <button bindtap="tocoverview">coverview</button>
   </view>
   <view class="usermotto">
     <text class="user-motto" bindtap="jump">{{motto}}</text>

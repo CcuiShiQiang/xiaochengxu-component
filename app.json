@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/movable/movable",
     "pages/scrollView/scrollView",
-    "pages/swiper/swiper"
+    "pages/swiper/swiper",
+    "pages/coverview/coverview"
   ],
   "window": {
     "backgroundTextStyle": "light",
