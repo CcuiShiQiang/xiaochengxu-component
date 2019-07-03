@@ -34,6 +34,12 @@ Page({
     })
   },
 
+  tobasic: function () {
+    wx.navigateTo({
+      url: '../basic/basic'
+    })
+  },
+
   tocoverview: function () {
     wx.navigateTo({
       url: '../coverview/coverview'

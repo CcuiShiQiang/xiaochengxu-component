@@ -1,0 +1,36 @@
+<!--pages/basic/basic.wxml-->
+<view>
+  <view class="icon">
+    <view>
+      <block wx:for="{{ iconSize }}" wx:key="{{ index }}">
+        <icon type="success" size="{{item}}" />
+      </block>
+    </view>
+
+    <view>
+      <block wx:for="{{ iconType }}" wx:key="{{ index }}">
+        <icon type="{{item}}" size="40" />
+      </block>
+    </view>
+
+    <view>
+      <block wx:for="{{ iconColor }}" wx:key="{{ index }}">
+        <icon type="success" size="30" color="{{ item }}"></icon>
+      </block>
+    </view>
+  </view>
+
+  <view class="progress">
+    <progress class="progress-item" percent="20" show-info font-size="20" />
+    <progress class="progress-item" border-radius="20" percent="40" stroke-width="15" />
+    <progress class="progress-item" backgroundColor="#000" activeColor="red" percent="60" active="true" bindactiveend="transitonEnd" />
+  </view>
+
+  <view class="rich-text">
+    <rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+  </view>
+
+  <view>
+    <text>这是内容</text>
+  </view>
+</view>

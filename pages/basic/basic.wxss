@@ -1,0 +1,4 @@
+/* pages/basic/basic.wxss */
+.progress-item {
+  margin-top: 30rpx;
+}
