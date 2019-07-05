@@ -1,0 +1,41 @@
+<!--pages/inputComponent/inputCompinent.wxml-->
+<view>
+  <button class="input-button" bindtap='toinput'>input</button>
+  <button class="label" bindtap="tolabel">Label</button>
+  <view class="form input-item">
+    <form bindsubmit="submit" bindreset="reset">
+      <input name="input" placeholder="请输入" />
+      <button form-type="submit">submit</button>
+      <button form-type="reset">Reset</button>
+    </form>
+  </view>
+  <!-- <view class="editor">
+    <editor
+      placeholder="123"
+      showImgToolbar
+      showImgResize
+      bindstatuschange="onStatusChange"
+      read-only="{{ readOnly}}">
+    </editor>
+  </view> -->
+  <view class="checkbox input-item">
+    <checkbox-group bindchange="checkboxChange">
+      <label wx:for="{{ checkoutData }}" wx:key="index">
+        <checkbox value="{{ item.name }}" color="red" />{{ item.value }}
+      </label>
+    </checkbox-group>
+  </view>
+  <view class="button input-item">
+    <button size="mini">size</button>
+    <button type="primary">primary</button>
+    <button form-type="reset">form-type</button>
+    <button plain="true">plain</button>
+    <button disabled="true">disabled</button>
+    <button loading="true">loading</button>
+    <button open-type="feedback">意见反馈</button>
+    <button open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
+    <button hover-class="other-button-hover">按钮按下去的样式</button>
+    <button hover-start-time="1000">hover-start-time</button>
+    <button send-message-img="" open-type="contact">send-message-img</button>
+  </view>
+</view>

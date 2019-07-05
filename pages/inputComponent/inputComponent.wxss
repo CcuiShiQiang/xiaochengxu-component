@@ -1,0 +1,8 @@
+/* pages/inputComponent/inputCompinent.wxss */
+.other-button-hover {
+  background-color: blue;
+}
+
+.input-item {
+  margin-top: 80px;
+}

@@ -34,9 +34,17 @@ Page({
     })
   },
 
+  // 跳转到基础组件
   tobasic: function () {
     wx.navigateTo({
       url: '../basic/basic'
+    })
+  },
+
+  // 跳转到input组件
+  toinput: function () {
+    wx.navigateTo({
+      url: '../inputComponent/inputComponent',
     })
   },
 

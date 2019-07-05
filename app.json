@@ -6,7 +6,10 @@
     "pages/scrollView/scrollView",
     "pages/swiper/swiper",
     "pages/coverview/coverview",
-    "pages/basic/basic"
+    "pages/basic/basic",
+    "pages/inputComponent/inputComponent",
+    "pages/inputComponent/inputPage/inputPage",
+    "pages/inputComponent/labelPage/labelPage"
   ],
   "window": {
     "backgroundTextStyle": "light",
