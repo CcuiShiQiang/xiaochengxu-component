@@ -1,0 +1,6 @@
+<!--pages/inputComponent/switchPage/switchPage.wxml-->
+<view>
+  <switch checked />
+  <switch disabled="{{ true }}" />
+  <switch color="red" bindchange="swtichChange" />
+</view>

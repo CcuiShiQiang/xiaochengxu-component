@@ -12,7 +12,8 @@
     "pages/inputComponent/labelPage/labelPage",
     "pages/inputComponent/pickerPage/pickerPage",
     "pages/inputComponent/radioPage/radioPage",
-    "pages/inputComponent/sliderPage/sliderPage"
+    "pages/inputComponent/sliderPage/sliderPage",
+    "pages/inputComponent/switchPage/switchPage"
   ],
   "window": {
     "backgroundTextStyle": "light",

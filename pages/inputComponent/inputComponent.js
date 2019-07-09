@@ -121,5 +121,11 @@ Page({
     wx.navigateTo({
       url: './sliderPage/sliderPage',
     })
+  },
+
+  toswitch: function () {
+    wx.navigateTo({
+      url: './switchPage/switchPage',
+    })
   }
 })
