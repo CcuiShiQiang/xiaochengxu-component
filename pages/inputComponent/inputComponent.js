@@ -127,5 +127,11 @@ Page({
     wx.navigateTo({
       url: './switchPage/switchPage',
     })
+  },
+
+  totextarea: function () {
+    wx.navigateTo({
+      url: './textareaPage/textareaPage',
+    })
   }
 })

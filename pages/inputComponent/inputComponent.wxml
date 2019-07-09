@@ -6,6 +6,7 @@
   <button class="radio" bindtap="toradio">Radio</button>
   <button class="slider" bindtap="toslider">Slider</button>
   <button class="switch" bindtap="toswitch">Switch</button>
+  <button class="textarea" bindtap="totextarea">Textarea</button>
   <view class="form input-item">
     <form bindsubmit="submit" bindreset="reset">
       <input name="input" placeholder="请输入" />

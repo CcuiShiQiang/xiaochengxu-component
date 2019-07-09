@@ -1,0 +1,4 @@
+<!--pages/inputComponent/textareaPage/textareaPage.wxml-->
+<view class="textarea-page">
+  <textarea placeholder='123' cursor-spacing="100" bindfocus="focus" bindlinechange="linechange" bindinput="input" bindconfirm="confirm" />
+</view>
