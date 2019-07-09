@@ -1,0 +1,4 @@
+/* pages/inputComponent/pickerPage/pickerPage.wxss */
+.picker-item {
+  margin-top: 40rpx
+}

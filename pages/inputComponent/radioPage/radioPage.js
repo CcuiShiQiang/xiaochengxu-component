@@ -1,18 +1,17 @@
-// pages/inputComponent/inputCompinent.js
+// pages/inputComponent/radioPage/radioPage.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    // readOnly: false,
-    checkoutData: [
+    items: [
       { name: 'USA', value: '美国' },
       { name: 'CHN', value: '中国', checked: 'true' },
       { name: 'BRA', value: '巴西' },
       { name: 'JPN', value: '日本' },
       { name: 'ENG', value: '英国' },
-      { name: 'TUR', value: '法国' }
+      { name: 'TUR', value: '法国' },
     ]
   },
 
@@ -72,48 +71,7 @@ Page({
 
   },
 
-  onGotUserInfo: function (e) {
-    console.log(e);
-  },
-
-  // 多选框
-  checkboxChange: function (e) {
-    console.log(e.detail.value);
-  },
-
-  onStatusChange: function () {
-    console.log(11)
-  },
-
-  submit: function (e) {
-    console.log(e.detail.value);
-  },
-
-  reset: function () {
-    console.log('重置')
-  },
-
-  toinput: function () {
-    wx.navigateTo({
-      url: './inputPage/inputPage'
-    })
-  },
-
-  tolabel: function () {
-    wx.navigateTo({
-      url: './labelPage/labelPage'
-    })
-  },
-
-  topicker: function () {
-    wx.navigateTo({
-      url: './pickerPage/pickerPage',
-    })
-  },
-
-  toradio: function () {
-    wx.navigateTo({
-      url: './radioPage/radioPage'
-    })
+  radioChange: function (e) {
+    console.log('radio发生change事件，携带value值为：', e.detail.value)
   }
 })

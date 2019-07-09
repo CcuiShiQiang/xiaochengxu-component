@@ -9,7 +9,9 @@
     "pages/basic/basic",
     "pages/inputComponent/inputComponent",
     "pages/inputComponent/inputPage/inputPage",
-    "pages/inputComponent/labelPage/labelPage"
+    "pages/inputComponent/labelPage/labelPage",
+    "pages/inputComponent/pickerPage/pickerPage",
+    "pages/inputComponent/radioPage/radioPage"
   ],
   "window": {
     "backgroundTextStyle": "light",

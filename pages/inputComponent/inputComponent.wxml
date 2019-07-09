@@ -2,6 +2,8 @@
 <view>
   <button class="input-button" bindtap='toinput'>input</button>
   <button class="label" bindtap="tolabel">Label</button>
+  <button class="picker" bindtap="topicker">Picker</button>
+  <button class="radio" bindtap="toradio">Radior</button>
   <view class="form input-item">
     <form bindsubmit="submit" bindreset="reset">
       <input name="input" placeholder="请输入" />
