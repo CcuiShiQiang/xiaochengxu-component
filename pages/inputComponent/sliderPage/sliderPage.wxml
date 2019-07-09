@@ -1,0 +1,4 @@
+<!--pages/inputComponent/sliderPage/sliderPage.wxml-->
+<view class="slider-page">
+  <slider value="50" show-value step="10" disabled="{{false}}" backgroundColor="red" activeColor="green" bindchange="chageStep" />
+</view>

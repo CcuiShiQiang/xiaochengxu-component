@@ -115,5 +115,11 @@ Page({
     wx.navigateTo({
       url: './radioPage/radioPage'
     })
+  },
+
+  toslider: function () {
+    wx.navigateTo({
+      url: './sliderPage/sliderPage',
+    })
   }
 })
