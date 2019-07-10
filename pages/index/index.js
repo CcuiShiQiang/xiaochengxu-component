@@ -48,6 +48,11 @@ Page({
     })
   },
 
+  tonavigator: function () {
+    wx.navigateTo({
+      url: '../navigator/navigator',
+    })
+  },
   tocoverview: function () {
     wx.navigateTo({
       url: '../coverview/coverview'

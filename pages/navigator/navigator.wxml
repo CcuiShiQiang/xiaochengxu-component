@@ -1,0 +1,9 @@
+<!--pages/navigator/navigator.wxml-->
+<view class="navigator">
+  <functional-page-navigator name="loginAndGetUserInfo" bind:success="loginSuccess">
+    <button>登录到插件</button>
+  </functional-page-navigator>
+
+  <navigator url="../index/index" open-type="switchTab">跳转到index页面</navigator>
+  <button bindtap="toindex">跳转</button>
+</view>
