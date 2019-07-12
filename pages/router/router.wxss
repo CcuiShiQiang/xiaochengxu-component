@@ -1,0 +1,4 @@
+/* pages/router/router.wxss */
+.router-item {
+  margin-top: 40rpx;
+}

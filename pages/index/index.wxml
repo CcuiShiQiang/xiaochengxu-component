@@ -7,8 +7,8 @@
     <button bindtap="tobasic">基础组件</button>
     <button bindtap="toinput">表单组件</button>
     <button bindtap="tonavigator">导航</button>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto" bindtap="jump">{{motto}}</text>
+    <navigator url="/pages/router/router">
+      <button>路由</button>
+    </navigator>
   </view>
 </view>

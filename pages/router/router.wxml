@@ -1,0 +1,8 @@
+<!--pages/router/router.wxml-->
+<view class="router">
+  <button class="router-item" bindtap='tologs'>switchTab to logs</button>
+  <button class="router-item" bindtap='tobasic'>reLaunch to basic</button>
+  <button class="router-item" bindtap="toinputPage">redirectTo to inputPage</button>
+  <button class="router-item" bindtap="topickerPage">navigateTo to pickerPage </button>
+  <button class="router-item" bindtap="back">navigateBack</button>
+</view>
